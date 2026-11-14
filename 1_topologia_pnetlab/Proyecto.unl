@@ -40,48 +40,49 @@
         <interface color="" dstpos="" fontsize="" id="17" label="" labelpos="" linkcfg="" linkstyle="" name="e1/1" network_id="19" srcpos="" style="" type="ethernet" width="" />
         <interface color="" dstpos="" fontsize="" id="33" label="" labelpos="" linkcfg="" linkstyle="" name="e1/2" network_id="20" srcpos="" style="" type="ethernet" width="" />
       <config>CiEKISBMYXN0IGNvbmZpZ3VyYXRpb24gY2hhbmdlIGF0IDIwOjMxOjU3IFVUQyBTYXQgTm92IDE0IDIwMjYKIQp2ZXJzaW9uIDE1LjIKc2VydmljZSB0aW1lc3RhbXBzIGRlYnVnIGRhdGV0aW1lIG1zZWMKc2VydmljZSB0aW1lc3RhbXBzIGxvZyBkYXRldGltZSBtc2VjCm5vIHNlcnZpY2UgcGFzc3dvcmQtZW5jcnlwdGlvbgpzZXJ2aWNlIGNvbXByZXNzLWNvbmZpZwohCmhvc3RuYW1lIFN3aXRjaAohCmJvb3Qtc3RhcnQtbWFya2VyCmJvb3QtZW5kLW1hcmtlcgohCiEKIQpubyBhYWEgbmV3LW1vZGVsCiEKIQohCiEKIQohCiEKIQppcCBjZWYKbm8gaXB2NiBjZWYKIQohCnNwYW5uaW5nLXRyZWUgbW9kZSBwdnN0CnNwYW5uaW5nLXRyZWUgZXh0ZW5kIHN5c3RlbS1pZAohCnZsYW4gaW50ZXJuYWwgYWxsb2NhdGlvbiBwb2xpY3kgYXNjZW5kaW5nCiEKISAKIQohCiEKIQohCiEKIQohCiEKIQohCmludGVyZmFjZSBFdGhlcm5ldDAvMAogZGVzY3JpcHRpb24gVEhVTktfSEFDSUFfU1cxCiBzd2l0Y2hwb3J0IHRydW5rIGFsbG93ZWQgdmxhbiAxMCwyMCwzMCw0MAogc3dpdGNocG9ydCB0cnVuayBlbmNhcHN1bGF0aW9uIGRvdDFxCiBzd2l0Y2hwb3J0IG1vZGUgdHJ1bmsKIQppbnRlcmZhY2UgRXRoZXJuZXQwLzEKIGRlc2NyaXB0aW9uIFdFQjFfVkxBTjMwCiBzd2l0Y2hwb3J0IGFjY2VzcyB2bGFuIDMwCiBzd2l0Y2hwb3J0IG1vZGUgYWNjZXNzCiEKaW50ZXJmYWNlIEV0aGVybmV0MC8yCiBkZXNjcmlwdGlvbiBQQzExX1ZMQU4zMAogc3dpdGNocG9ydCBhY2Nlc3MgdmxhbiAzMAogc3dpdGNocG9ydCBtb2RlIGFjY2VzcwohCmludGVyZmFjZSBFdGhlcm5ldDAvMwogZGVzY3JpcHRpb24gUEMxMl9WTEFONDAKIHN3aXRjaHBvcnQgYWNjZXNzIHZsYW4gNDAKIHN3aXRjaHBvcnQgbW9kZSBhY2Nlc3MKIQppbnRlcmZhY2UgRXRoZXJuZXQxLzAKIGRlc2NyaXB0aW9uIERIQ1AxX1ZMQU4xMAogc3dpdGNocG9ydCBhY2Nlc3MgdmxhbiAxMAogc3dpdGNocG9ydCBtb2RlIGFjY2VzcwohCmludGVyZmFjZSBFdGhlcm5ldDEvMQogZGVzY3JpcHRpb24gUEMxMF9WTEFOMTAKIHN3aXRjaHBvcnQgYWNjZXNzIHZsYW4gMTAKIHN3aXRjaHBvcnQgbW9kZSBhY2Nlc3MKIQppbnRlcmZhY2UgRXRoZXJuZXQxLzIKIGRlc2NyaXB0aW9uIFBDNV9WTEFOMjAKIHN3aXRjaHBvcnQgYWNjZXNzIHZsYW4gMjAKIHN3aXRjaHBvcnQgbW9kZSBhY2Nlc3MKIQppbnRlcmZhY2UgRXRoZXJuZXQxLzMKIQppbnRlcmZhY2UgRXRoZXJuZXQyLzAKIQppbnRlcmZhY2UgRXRoZXJuZXQyLzEKIQppbnRlcmZhY2UgRXRoZXJuZXQyLzIKIQppbnRlcmZhY2UgRXRoZXJuZXQyLzMKIQppbnRlcmZhY2UgRXRoZXJuZXQzLzAKIQppbnRlcmZhY2UgRXRoZXJuZXQzLzEKIQppbnRlcmZhY2UgRXRoZXJuZXQzLzIKIQppbnRlcmZhY2UgRXRoZXJuZXQzLzMKIQppcCBmb3J3YXJkLXByb3RvY29sIG5kCiEKbm8gaXAgaHR0cCBzZXJ2ZXIKbm8gaXAgaHR0cCBzZWN1cmUtc2VydmVyCiEKIQohCiEKIQohCmNvbnRyb2wtcGxhbmUKIQohCmxpbmUgY29uIDAKIGxvZ2dpbmcgc3luY2hyb25vdXMKbGluZSBhdXggMApsaW5lIHZ0eSAwIDQKIQohCmVuZAo=</config></node>
-      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="7" idlepc="0x0" image="" left="237" multi_config="W10=" name="PC14 VLAN 10  192.168.10.12" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="297" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="7" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="8" idlepc="0x0" image="" left="243" multi_config="W10=" name="VPC10 VLAN 30  192.168.30.12" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="405" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="8" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="9" idlepc="0x0" image="" left="249" multi_config="W10=" name="PC13 VLAN 30  192.168.30.32" nvram="0" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="519" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="9" srcpos="" style="" type="ethernet" width="" />
-      </node>
       <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="10" idlepc="0x0" image="" left="255" multi_config="W10=" name="VPC-VLAN10 192.168.10.11" nvram="0" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="639" type="vpcs">
         <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="10" srcpos="" style="" type="ethernet" width="" />
       </node>
-      <node DNS="8.8.8.8" config="1" config_data="" config_script="config_docker.py" console="telnet" console_2nd="" cpu="1" cpulimit="1" default_route="192.168.20.1" delay="0" docker_options="--privileged" eth1_dhcp="0" eth1_ip="192.168.20.3/24" eth2_dhcp="0" eth2_ip="" eth3_dhcp="0" eth3_ip="" ethernet="2" icon="Server.png" id="11" idlepc="0x0" image="pnetlab/ubuntu_sv:latest" left="426" map_port="" map_port_2nd="" multi_config="W10=" name="DNS1 VLAN 20 192.168.20.3" nvram="1024" password="" ram="256" script_timeout="" serial="0" size="50" template="docker" top="255" type="docker" username="">
+      <node DNS="8.8.8.8" config="1" config_data="" config_script="config_docker.py" console="telnet" console_2nd="" cpu="1" cpulimit="1" default_route="192.168.20.1" delay="0" docker_options="--privileged" eth1_dhcp="0" eth1_ip="192.168.20.3/24" eth2_dhcp="0" eth2_ip="" eth3_dhcp="0" eth3_ip="" ethernet="2" icon="Server.png" id="11" idlepc="0x0" image="pnetlab/ubuntu_sv:latest" left="459" map_port="" map_port_2nd="" multi_config="W10=" name="DNS1 VLAN 20 192.168.20.3" nvram="1024" password="" ram="256" script_timeout="" serial="0" size="50" template="docker" top="240" type="docker" username="">
         <interface color="" dstpos="" fontsize="" id="1" label="" labelpos="" linkcfg="" linkstyle="" name="eth1" network_id="11" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="12" idlepc="0x0" image="" left="585" multi_config="W10=" name="VPC3 VLAN 40 192.168.40.3" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="615" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="12" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="13" idlepc="0x0" image="" left="798" multi_config="W10=" name="VPC2 VLAN 20 192.168.20.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="642" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="13" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="14" idlepc="0x0" image="" left="984" multi_config="W10=" name="VPC32 IP NO INDICADA" nvram="0" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="591" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="14" srcpos="" style="" type="ethernet" width="" />
       </node>
       <node DNS="" config="1" config_data="" config_script="config_docker.py" console="telnet" console_2nd="" cpu="1" cpulimit="1" default_route="192.168.30.1" delay="0" docker_options="--privileged" eth1_dhcp="0" eth1_ip="192.168.30.2/24" eth2_dhcp="0" eth2_ip="" eth3_dhcp="0" eth3_ip="" ethernet="2" icon="Server.png" id="15" idlepc="0x0" image="pnetlab/apache2:latest" left="1290" map_port="" map_port_2nd="" multi_config="W10=" name="WEB1 VLAN 30 192.168.30.2" nvram="1024" password="" ram="256" script_timeout="" serial="0" size="0" template="docker" top="177" type="docker" username="">
         <interface color="" dstpos="" fontsize="" id="1" label="" labelpos="" linkcfg="" linkstyle="" name="eth1" network_id="15" srcpos="" style="" type="ethernet" width="" />
       </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="16" idlepc="0x0" image="" left="1551" multi_config="W10=" name="VPC12 VLAN 40 192.168.40.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="426" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="17" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="17" idlepc="0x0" image="" left="1152" multi_config="W10=" name="VPC5 VLAN 20 192.168.20.30" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="603" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="20" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="18" idlepc="0x0" image="" left="1350" multi_config="W10=" name="VPC10 VLAN 10 192.168.10.10" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="630" type="vpcs">
-        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="19" srcpos="" style="" type="ethernet" width="" />
-      </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="19" idlepc="0x0" image="" left="1509" multi_config="W10=" name="VPC 11 VLAN 30 192.168.30.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="285" type="vpcs">
+      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="19" idlepc="0x0" image="" left="1554" multi_config="W10=" name="VPC 11 VLAN 30 192.168.30.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="282" type="vpcs">
         <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="16" srcpos="" style="" type="ethernet" width="" />
       </node>
       <node DNS="192.168.20.3" config="1" config_data="" config_script="config_docker.py" console="telnet" console_2nd="" cpu="1" cpulimit="1" default_route="192.168.10.1" delay="0" docker_options="--privileged" eth1_dhcp="0" eth1_ip="192.168.10.2/24" eth2_dhcp="0" eth2_ip="" eth3_dhcp="0" eth3_ip="" ethernet="2" icon="Server.png" id="20" idlepc="0x0" image="pnetlab/ubuntu_sv:latest" left="1581" map_port="" map_port_2nd="" multi_config="W10=" name="DHCP1 VLAN 10 192.168.10.2/24" nvram="1024" password="" ram="256" script_timeout="" serial="0" size="50" template="docker" top="603" type="docker" username="">
         <interface color="" dstpos="" fontsize="" id="1" label="" labelpos="" linkcfg="" linkstyle="" name="eth1" network_id="18" srcpos="" style="" type="ethernet" width="" />
       </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="21" idlepc="0x0" image="" left="1155" multi_config="W10=" name="VPC5 VLAN 20 192.168.20.30" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="633" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="20" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="22" idlepc="0x0" image="" left="525" multi_config="W10=" name="VPC3 VLAN 40 192.168.40.3" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="663" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="12" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="23" idlepc="0x0" image="" left="780" multi_config="W10=" name="VPC2 VLAN 20 192.168.20.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="678" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="13" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="24" idlepc="0x0" image="" left="1677" multi_config="W10=" name="VPC12 VLAN 40 192.168.40.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="444" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="17" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="26" idlepc="0x0" image="" left="285" multi_config="W10=" name="PC14 VLAN 10  192.168.10.12" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="285" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="7" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="27" idlepc="0x0" image="" left="246" multi_config="W10=" name="PC13 VLAN 30  192.168.30.32" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="528" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="9" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="28" idlepc="0x0" image="" left="273" multi_config="W10=" name="VPC10 VLAN 30  192.168.30.12" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="396" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="8" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="29" idlepc="0x0" image="" left="993" multi_config="W10=" name="VPC32 IP NO INDICADA" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="726" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="14" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="30" idlepc="0x0" image="" left="1350" multi_config="W10=" name="VPC10 VLAN 10 192.168.10.10" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="648" type="vpcs">
+        <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="19" srcpos="" style="" type="ethernet" width="" />
+      </node>
+      <node config="0" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="ChatGPT Image 9 sept 2026, 17_32_58.png" id="7" idlepc="0x0" image="" left="1719" multi_config="W10=" name="VPC 11 VLAN 30 192.168.30.11" nvram="1024" ram="128" script_timeout="" serial="0" size="100" template="vpcs" top="282" type="vpcs" />
     </nodes>
     <networks>
       <network icon="lan.png" id="1" left="0" name="R1-PAMPLONAiface_0" size="" top="0" type="bridge" visibility="0" />
@@ -90,20 +91,20 @@
       <network icon="lan.png" id="4" left="0" name="Switch1iface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="5" left="0" name="R2-PAMPLONAiface_16" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="6" left="0" name="R2-PAMPLONAiface_32" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="7" left="0" name="PC14 VLAN 10  192.168.10.12iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="8" left="0" name="VPC10 VLAN 30  192.168.30.12iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="9" left="0" name="PC13 VLAN 30  192.168.30.32iface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="10" left="0" name="VPC-VLAN10 192.168.10.11iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="12" left="0" name="VPC3 VLAN 40 192.168.40.3iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="13" left="0" name="VPC2 VLAN 20 192.168.20.11iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="14" left="0" name="VPC32 IP NO INDICADAiface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="11" left="0" name="DNS1 VLAN 20 192.168.20.3iface_1" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="15" left="0" name="WEB1 VLAN 30 192.168.30.2iface_1" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="16" left="0" name="VPC 11 VLAN 30 192.168.30.11iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="17" left="0" name="VPC12 VLAN 40 192.168.40.11iface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="18" left="0" name="DHCP1 VLAN 10 192.168.10.2/24iface_1" size="" top="0" type="bridge" visibility="0" />
-      <network icon="lan.png" id="19" left="0" name="VPC10 VLAN 10 192.168.10.10iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="7" left="0" name="PC26iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="8" left="0" name="PC28iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="9" left="0" name="PC13 VLAN 30  192.168.30.32iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="12" left="0" name="VPC3 VLAN 40 192.168.40.3iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="13" left="0" name="VPC2 VLAN 20 192.168.20.11iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="14" left="0" name="VPC32 IP NO INDICADAiface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="20" left="0" name="VPC5 VLAN 20 192.168.20.30iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="19" left="0" name="VPC10 VLAN 10 192.168.10.10iface_0" size="" top="0" type="bridge" visibility="0" />
+      <network icon="lan.png" id="17" left="0" name="VPC12 VLAN 40 192.168.40.11iface_0" size="" top="0" type="bridge" visibility="0" />
     </networks>
   </topology>
   <objects>
