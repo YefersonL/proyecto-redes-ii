@@ -1,3 +1,3 @@
 ID: 11
 Nombre: DNS1 VLAN 20 192.168.20.3
-Imagen: pamplona/ubuntu-servicios:1.0
+Imagen: pamplona/dns1-persistente:1.0
