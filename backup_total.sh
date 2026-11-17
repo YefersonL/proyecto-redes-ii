@@ -17,18 +17,6 @@ scp -q -r "root@${PNET_IP}:/tmp/export_lab/routers_switches/*" "$REPO_DIR/2_conf
 scp -q -r "root@${PNET_IP}:/tmp/export_lab/servidores_y_vpcs/*" "$REPO_DIR/2_configs_red/servidores_y_vpcs/" 2>/dev/null
 
 # También extraer cualquier bloque <config> que ya estuviera dentro de Proyecto.unl
-python3 -c '
-import xml.etree.ElementTree as ET, base64
-tree = ET.parse("/opt/proyecto-redes-ii/1_topologia_pnetlab/Proyecto.unl")
-for node in tree.findall(".//node"):
-    nid = node.get("id", "0")
-    name = node.get("name", "node").strip().replace(" ", "_").replace("/", "_")
-    cfg = node.find("config")
-    if cfg is not None and cfg.text:
-        raw = base64.b64decode(cfg.text).decode("utf-8", errors="ignore")
-        with open(f"/opt/proyecto-redes-ii/2_configs_red/routers_switches/{name}_id{nid}.cfg", "w") as f:
-            f.write(raw)
-' 2>/dev/null
 
 echo "[*] 2. Respaldando Dashboards y BD de Grafana..."
 for uid in $(curl -s -u "$GRAFANA_AUTH" "$GRAFANA_URL/api/search?type=dash-db" | jq -r '.[].uid' 2>/dev/null); do

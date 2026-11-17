@@ -1,3 +1,6 @@
 ID: 11
 Nombre: DNS1 VLAN 20 192.168.20.3
 Imagen: pamplona/dns1-persistente:1.0
+IP_ETH1: 192.168.20.3/24
+Gateway: 192.168.20.1
+DNS: 127.0.0.1
