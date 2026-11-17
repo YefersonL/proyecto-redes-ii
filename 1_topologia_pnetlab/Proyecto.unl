@@ -146,7 +146,7 @@
       <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="Desktop.png" id="36" idlepc="0x0" image="" left="960" multi_config="W10=" name="VPC 11" nvram="0" ram="128" script_timeout="" serial="0" size="0" template="vpcs" top="306" type="vpcs">
         <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="36" srcpos="" style="" type="ethernet" width="" />
       </node>
-      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="Desktop.png" id="37" idlepc="0x0" image="" left="297" multi_config="W10=" name="VPC MEDELLIN" nvram="0" ram="128" script_timeout="" serial="0" size="0" template="vpcs" top="786" type="vpcs">
+      <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="Desktop.png" id="37" idlepc="0x0" image="" left="273" multi_config="W10=" name="VPC MEDELLIN" nvram="0" ram="128" script_timeout="" serial="0" size="0" template="vpcs" top="819" type="vpcs">
         <interface color="" dstpos="" fontsize="" id="0" label="" labelpos="" linkcfg="" linkstyle="" name="eth0" network_id="23" srcpos="" style="" type="ethernet" width="" />
       </node>
       <node config="1" config_data="" config_script="embedded" console="" cpu="0" cpulimit="1" delay="0" ethernet="1" icon="100baseT Blue.png" id="25" idlepc="0x0" image="L2-ADVENTERPRISEK9-M-15.2-20150703.bin" iol_options="" keepalive="0" left="294" multi_config="W10=" name="S-7" nvram="1024" ram="1024" script_timeout="" serial="0" size="0" template="iol" top="675" type="iol">
@@ -175,7 +175,6 @@
       <network icon="lan.png" id="19" left="0" name="VPC10 VLAN 10 192.168.10.10iface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="17" left="0" name="VPC12 VLAN 40 192.168.40.11iface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="16" left="0" name="VPC 11 VLAN 30 192.168.30.11iface_0" size="" top="0" type="bridge" visibility="0" />
-      <network icon="cloud.png" id="21" left="2106" name="INTERNET-Cloud1" size="" top="195" type="pnet1" visibility="1" />
       <network icon="lan.png" id="22" left="0" name="R8 MEDELLINiface_0" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="23" left="0" name="S-7iface_16" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="24" left="0" name="R8 MEDELLINiface_16" size="" top="0" type="bridge" visibility="0" />
@@ -194,6 +193,7 @@
       <network icon="lan.png" id="37" left="0" name="R9 TUNJAiface_16" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="38" left="0" name="R11 SOGAMOSOiface_32" size="" top="0" type="bridge" visibility="0" />
       <network icon="lan.png" id="39" left="0" name="R6 CUCUTAiface_32" size="" top="0" type="bridge" visibility="0" />
+      <network icon="cloud.png" id="21" left="2043" name="INTERNET-Cloud-1" size="" top="132" type="pnet0" visibility="1" />
     </networks>
   </topology>
   <objects>
