@@ -1,0 +1,195 @@
+{
+  "id": 1027274003492864,
+  "panels": [
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "dg2wle1ezlmgwa"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "red",
+                  "text": "DOWN"
+                },
+                "1": {
+                  "color": "green",
+                  "text": "UP"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          }
+        }
+      },
+      "gridPos": {
+        "h": 7,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      },
+      "targets": [
+        {
+          "group": {
+            "filter": "Redes2 - PCs_VPCs"
+          },
+          "host": {
+            "filter": "/.*/"
+          },
+          "item": {
+            "filter": "/ICMP ping/"
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Estado ICMP Ping (Up=1 / Down=0) - Redes2 - PCs_VPCs",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "dg2wle1ezlmgwa"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        }
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 12,
+        "x": 0,
+        "y": 7
+      },
+      "id": 2,
+      "targets": [
+        {
+          "group": {
+            "filter": "Redes2 - PCs_VPCs"
+          },
+          "host": {
+            "filter": "/.*/"
+          },
+          "item": {
+            "filter": "/ICMP response time/"
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Tiempo de Respuesta Ping (Latencia) - Redes2 - PCs_VPCs",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "dg2wle1ezlmgwa"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "max": 100,
+          "min": 0,
+          "unit": "percent"
+        }
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 12,
+        "x": 12,
+        "y": 7
+      },
+      "id": 3,
+      "targets": [
+        {
+          "group": {
+            "filter": "Redes2 - PCs_VPCs"
+          },
+          "host": {
+            "filter": "/.*/"
+          },
+          "item": {
+            "filter": "/ICMP loss/"
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Pérdida de Paquetes (%) - Redes2 - PCs_VPCs",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "dg2wle1ezlmgwa"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bps"
+        }
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 16
+      },
+      "id": 4,
+      "targets": [
+        {
+          "group": {
+            "filter": "Redes2 - PCs_VPCs"
+          },
+          "host": {
+            "filter": "/.*/"
+          },
+          "item": {
+            "filter": "/Bits (received|sent)/"
+          },
+          "queryType": "0",
+          "refId": "A"
+        }
+      ],
+      "title": "Tráfico de Red / Interfaces SNMP (Bits recibidos/enviados) - Redes2 - PCs_VPCs",
+      "type": "timeseries"
+    }
+  ],
+  "refresh": "30s",
+  "schemaVersion": 38,
+  "tags": [
+    "Redes2",
+    "Redes2 - PCs_VPCs"
+  ],
+  "timezone": "browser",
+  "title": "4. Redes II - Panel de PCs y VPCs por VLAN",
+  "uid": "redes2-pcs",
+  "version": 1
+}
