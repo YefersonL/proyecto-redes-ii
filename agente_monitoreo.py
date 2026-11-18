@@ -209,7 +209,7 @@ def main():
             if d.get("type") == "alexanderzobnin-zabbix-datasource":
                 ds_uid = d.get("uid")
                 ds_id = d.get("id")
-                graf_req("PUT", f"/api/datasources/{ds_id}", ds_payload)
+                graf_req("PUT", f"/api/datasources/uid/{ds_uid}", ds_payload)
                 break
     if not ds_uid:
         created_ds = graf_req("POST", "/api/datasources", ds_payload)

@@ -4,7 +4,7 @@
     {
       "datasource": {
         "type": "alexanderzobnin-zabbix-datasource",
-        "uid": "dg2wle1ezlmgwa"
+        "uid": "cg4mo5x6sj7cwc"
       },
       "fieldConfig": {
         "defaults": {
@@ -61,7 +61,7 @@
         {
           "datasource": {
             "type": "alexanderzobnin-zabbix-datasource",
-            "uid": "dg2wle1ezlmgwa"
+            "uid": "cg4mo5x6sj7cwc"
           },
           "functions": [],
           "group": {
@@ -93,7 +93,7 @@
     {
       "datasource": {
         "type": "alexanderzobnin-zabbix-datasource",
-        "uid": "dg2wle1ezlmgwa"
+        "uid": "cg4mo5x6sj7cwc"
       },
       "fieldConfig": {
         "defaults": {
@@ -111,7 +111,7 @@
         {
           "datasource": {
             "type": "alexanderzobnin-zabbix-datasource",
-            "uid": "dg2wle1ezlmgwa"
+            "uid": "cg4mo5x6sj7cwc"
           },
           "functions": [],
           "group": {
@@ -143,7 +143,7 @@
     {
       "datasource": {
         "type": "alexanderzobnin-zabbix-datasource",
-        "uid": "dg2wle1ezlmgwa"
+        "uid": "cg4mo5x6sj7cwc"
       },
       "fieldConfig": {
         "defaults": {
@@ -163,7 +163,7 @@
         {
           "datasource": {
             "type": "alexanderzobnin-zabbix-datasource",
-            "uid": "dg2wle1ezlmgwa"
+            "uid": "cg4mo5x6sj7cwc"
           },
           "functions": [],
           "group": {
@@ -195,7 +195,7 @@
     {
       "datasource": {
         "type": "alexanderzobnin-zabbix-datasource",
-        "uid": "dg2wle1ezlmgwa"
+        "uid": "cg4mo5x6sj7cwc"
       },
       "fieldConfig": {
         "defaults": {
@@ -213,7 +213,7 @@
         {
           "datasource": {
             "type": "alexanderzobnin-zabbix-datasource",
-            "uid": "dg2wle1ezlmgwa"
+            "uid": "cg4mo5x6sj7cwc"
           },
           "functions": [],
           "group": {
@@ -256,5 +256,5 @@
   "timezone": "browser",
   "title": "2. Redes II - Panel de Switches (Capa 2 / VLANs)",
   "uid": "redes2-switches",
-  "version": 4
+  "version": 5
 }
