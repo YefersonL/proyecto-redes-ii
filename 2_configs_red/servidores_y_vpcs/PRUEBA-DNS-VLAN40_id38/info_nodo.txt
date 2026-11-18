@@ -1,0 +1,6 @@
+ID: 38
+Nombre: PRUEBA-DNS-VLAN40
+Imagen: pnetlab/ubuntu_sv:latest
+IP_ETH1: 
+Gateway: 
+DNS: 
