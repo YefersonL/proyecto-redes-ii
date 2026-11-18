@@ -41,6 +41,8 @@ def graf_req(method, endpoint, data=None):
         return {"error": e.code, "message": e.read().decode("utf-8", errors="ignore")}
 
 def extract_ip_from_cfg(cfg_path, raw_name=""):
+    if "r1-pamplona" in raw_name.lower():
+        return "192.168.1.252", True
     if "r2-pamplona" in raw_name.lower():
         return "192.168.1.250", True
     if not os.path.exists(cfg_path):
