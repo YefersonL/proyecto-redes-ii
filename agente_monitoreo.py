@@ -44,7 +44,7 @@ def extract_ip_from_cfg(cfg_path, raw_name=""):
     if "r1-pamplona" in raw_name.lower():
         return "20.20.20.1", True
     if "r2-pamplona" in raw_name.lower():
-        return "192.168.1.250", True
+        return "192.168.1.252", True
     if not os.path.exists(cfg_path):
         return None, False
     with open(cfg_path, "r", errors="ignore") as f:
