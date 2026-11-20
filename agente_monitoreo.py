@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, re, glob, json, urllib.request
+import os, re, glob, json, base64, urllib.request
 import xml.etree.ElementTree as ET
 
 ZBX_URL = "http://127.0.0.1/zabbix/api_jsonrpc.php"
@@ -110,6 +110,16 @@ def main():
         if ntype == "iol":
             cfg_file = os.path.join(CFG_DIR, f"{safe_name}_id{nid}.cfg")
             ip_addr, use_snmp = extract_ip_from_cfg(cfg_file, raw_name)
+            if not ip_addr and node.get("config_data"):
+                try:
+                    cfg_txt = base64.b64decode(node.get("config_data")).decode("utf-8", errors="ignore")
+                    use_snmp = use_snmp or ("snmp-server community" in cfg_txt)
+                    ips = re.findall(r"ip address\s+(\d+\.\d+\.\d+\.\d+)\s+\d+\.\d+\.\d+\.\d+", cfg_txt)
+                    ip_addr = next((i for i in ips if i.startswith("192.168.")), ips[0] if ips else None)
+                except Exception:
+                    pass
+            if not ip_addr:
+                ip_addr = extract_ip_from_string_or_vpc(raw_name)
             categoria = "Redes2 - Switches" if ("l2-" in nimage or raw_name.lower().startswith("s")) else "Redes2 - Routers"
         elif ntype == "docker":
             categoria = "Redes2 - Servidores"
@@ -143,12 +153,17 @@ def main():
         if iface_type == 2:
             iface["details"] = {"version": 2, "bulk": 1, "community": "{$SNMP_COMMUNITY}"}
 
-        existing = zbx_req("host.get", {"filter": {"host": [host_tech_name]}}, token)
+        all_by_id = zbx_req("host.get", {"search": {"host": f"_id{nid}"}, "output": ["hostid", "host"]}, token)
+        existing = [h for h in all_by_id if h["host"].endswith(f"_id{nid}")]
         if existing:
             hid = existing[0]["hostid"]
+            # Borrar duplicados creados al renombrar el nodo en PNETLab
+            if len(existing) > 1:
+                zbx_req("host.delete", [h["hostid"] for h in existing[1:]], token)
             try:
                 zbx_req("host.update", {
                     "hostid": hid,
+                    "host": host_tech_name,
                     "name": visible_name,
                     "groups": [{"groupid": gid}],
                     "status": status_val
@@ -156,8 +171,8 @@ def main():
                 ifaces = zbx_req("hostinterface.get", {"hostids": hid}, token)
                 if ifaces and ifaces[0]["ip"] != final_ip:
                     zbx_req("hostinterface.update", {"interfaceid": ifaces[0]["interfaceid"], "ip": final_ip}, token)
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"    [!] Error actualizando {visible_name}: {e}")
         else:
             zbx_req("host.create", {
                 "host": host_tech_name,
