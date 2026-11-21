@@ -2,10 +2,10 @@
 REPO_DIR="/opt/proyecto-redes-ii"
 source "$REPO_DIR/.env"
 FECHA=$(date +"%Y-%m-%d %H:%M:%S")
-ip route replace 192.168.10.0/24 via 192.168.1.250 2>/dev/null
-ip route replace 192.168.20.0/24 via 192.168.1.250 2>/dev/null
-ip route replace 192.168.30.0/24 via 192.168.1.250 2>/dev/null
-ip route replace 192.168.40.0/24 via 192.168.1.250 2>/dev/null
+ip route replace 192.168.10.0/24 via 192.168.1.253 2>/dev/null
+ip route replace 192.168.20.0/24 via 192.168.1.253 2>/dev/null
+ip route replace 192.168.30.0/24 via 192.168.1.253 2>/dev/null
+ip route replace 192.168.40.0/24 via 192.168.1.253 2>/dev/null
 
 mkdir -p "$REPO_DIR/2_configs_red/routers_switches"
 mkdir -p "$REPO_DIR/2_configs_red/servidores_y_vpcs"
